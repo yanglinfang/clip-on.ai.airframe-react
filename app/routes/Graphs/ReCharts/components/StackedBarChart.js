@@ -13,13 +13,13 @@ import {
 import colors from './../../../../colors';
 
 const data = [
-      {name: 'Page A', uv: 4000, pv: 2400, amt: 2400},
-      {name: 'Page B', uv: 3000, pv: 1398, amt: 2210},
-      {name: 'Page C', uv: 2000, pv: 9800, amt: 2290},
-      {name: 'Page D', uv: 2780, pv: 3908, amt: 2000},
-      {name: 'Page E', uv: 1890, pv: 4800, amt: 2181},
-      {name: 'Page F', uv: 2390, pv: 3800, amt: 2500},
-      {name: 'Page G', uv: 3490, pv: 4300, amt: 2100},
+    {name: 'Paper', session1: 4000, session2: 2400, amt: 2400},
+    {name: 'Glass', session1: 3000, session2: 1398, amt: 2210},
+    {name: 'Plastic', session1: 2000, session2: 9800, amt: 2290},
+    {name: 'Smoking', session1: 2780, session2: 3908, amt: 2000},
+    {name: 'Organics', session1: 1890, session2: 4800, amt: 2181},
+    {name: 'CDL_Waste', session1: 2390, session2: 3800, amt: 5500},
+    {name: 'Hazardous Material', session1: 3490, session2: 4300, amt: 2100},
 ];
 
 const StackedBarChart = () => (
@@ -31,8 +31,8 @@ const StackedBarChart = () => (
             <YAxis/>
             <Tooltip/>
             <Legend />
-            <Bar dataKey="pv" stackId="a" fill={ colors['primary'] } barSize={ 5 } />
-            <Bar dataKey="uv" stackId="a" fill={ colors['purple'] } barSize={ 5 } />
+            <Bar dataKey="session1" stackId="a" fill={ colors['primary'] } barSize={ 5 } />
+            <Bar dataKey="session2" stackId="a" fill={ colors['purple'] } barSize={ 5 } />
         </BarChart>
     </ResponsiveContainer>
 

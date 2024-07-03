@@ -6,7 +6,7 @@ import {
     Col,
     Card,
     CardBody,
-    CardDeck, 
+    CardDeck,
     Button
 } from './../../../components'
 import { HeaderMain } from "../../components/HeaderMain";
@@ -43,13 +43,18 @@ import { VerticalComposedChart } from './components/VerticalComposedChart';
 
 export const ReCharts = () => (
     <Container>
-        <HeaderMain 
+        <HeaderMain
             title="Litter Report"
             className="mb-4 mt-4"
         />
         <p>
             Here is your report for today's high-way ramp litter clean-up activity on July 1st 2024!
+            See June 2022 WSDOT Stagewide Litter Study Report at link:
+            <Button color="link" href="https://apps.ecology.wa.gov/publications/documents/2307038.pdf" target="_blank">
+                <i className="fa fa-external-link"></i>
+            </Button> 
         </p>
+
         <ul className="mb-5">
             <li><strong>Liter type</strong> breakdown of what types of litter you picked up.</li>
             <li><strong>Geo info</strong> GIS based geo location infomation.</li>
@@ -58,13 +63,13 @@ export const ReCharts = () => (
 
         { /* START Header 1 */}
         <Row>
-            <Col lg={ 12 }>
-                <HeaderDemo 
-                    no={1} 
-                    title="Liter type" 
+            <Col lg={12}>
+                <HeaderDemo
+                    no={1}
+                    title="Liter type"
                     subTitle={(
                         <React.Fragment>
-                            Quickly build your charts with decoupled, reusable React components.
+                            Find out more about what types of litter you picked up in this session.
                         </React.Fragment>
                     )}
                 />
@@ -79,7 +84,7 @@ export const ReCharts = () => (
                     <div className="d-flex">
                         <div>
                             <h6 className="card-title mb-1">
-                                SimpleBarChart
+                                SimpleBarChart (compare sessions)
                                 <span className="small ml-1 text-muted">
                                     #1.01
                                 </span>
@@ -102,7 +107,7 @@ export const ReCharts = () => (
                     <div className="d-flex">
                         <div>
                             <h6 className="card-title mb-1">
-                                StackedBarChart
+                                StackedBarChart (two session combined)
                                 <span className="small ml-1 text-muted">
                                     #1.02
                                 </span>
@@ -220,10 +225,10 @@ export const ReCharts = () => (
 
         { /* START Header 2 */}
         <Row>
-            <Col lg={ 12 }>
-                <HeaderDemo 
-                    no={2} 
-                    title="Geo info" 
+            <Col lg={12}>
+                <HeaderDemo
+                    no={2}
+                    title="Geo info"
                     className="mt-5"
                     subTitle={(
                         <React.Fragment>
@@ -335,10 +340,10 @@ export const ReCharts = () => (
 
         { /* START Header 3 */}
         <Row>
-            <Col lg={ 12 }>
-                <HeaderDemo 
-                    no={3} 
-                    title="Your team" 
+            <Col lg={12}>
+                <HeaderDemo
+                    no={3}
+                    title="Your team"
                     className="mt-5"
                     subTitle={(
                         <React.Fragment>
@@ -450,10 +455,10 @@ export const ReCharts = () => (
 
         { /* START Header 4 */}
         <Row>
-            <Col lg={ 12 }>
-                <HeaderDemo 
-                    no={4} 
-                    title="Pie Charts" 
+            <Col lg={12}>
+                <HeaderDemo
+                    no={4}
+                    title="Pie Charts"
                     className="mt-5"
                     subTitle={(
                         <React.Fragment>
@@ -584,10 +589,10 @@ export const ReCharts = () => (
 
         { /* START Header 5 */}
         <Row>
-            <Col lg={ 12 }>
-                <HeaderDemo 
-                    no={5} 
-                    title="Radar Charts" 
+            <Col lg={12}>
+                <HeaderDemo
+                    no={5}
+                    title="Radar Charts"
                     className="mt-5"
                     subTitle={(
                         <React.Fragment>
@@ -651,10 +656,10 @@ export const ReCharts = () => (
 
         { /* START Header 6 */}
         <Row>
-            <Col lg={ 12 }>
-                <HeaderDemo 
-                    no={6} 
-                    title="Composed Charts" 
+            <Col lg={12}>
+                <HeaderDemo
+                    no={6}
+                    title="Composed Charts"
                     className="mt-5"
                     subTitle={(
                         <React.Fragment>
@@ -715,10 +720,10 @@ export const ReCharts = () => (
 
         { /* START Header 7 */}
         <Row>
-            <Col lg={ 12 }>
-                <HeaderDemo 
-                    no={7} 
-                    title="Tiny Charts" 
+            <Col lg={12}>
+                <HeaderDemo
+                    no={7}
+                    title="Tiny Charts"
                     className="mt-5"
                     subTitle={(
                         <React.Fragment>
@@ -793,7 +798,7 @@ export const ReCharts = () => (
             { /* START Card Graph */}
         </CardDeck>
         <Row>
-            <Col lg={ 3 }>
+            <Col lg={3}>
                 { /* START Card Graph */}
                 <Card className="mb-3">
                     <CardBody>
@@ -815,7 +820,7 @@ export const ReCharts = () => (
                 </Card>
                 { /* START Card Graph */}
             </Col>
-            <Col lg={ 3 }>
+            <Col lg={3}>
                 { /* START Card Graph */}
                 <Card className="mb-3">
                     <CardBody>

@@ -44,18 +44,16 @@ import { VerticalComposedChart } from './components/VerticalComposedChart';
 export const ReCharts = () => (
     <Container>
         <HeaderMain 
-            title="ReCharts"
+            title="Litter Report"
             className="mb-4 mt-4"
         />
         <p>
-            Recharts is a Redefined chart library built with React and D3. 
-            The main purpose of this library is to help you to write charts in React applications without any pain. 
-            Main principles of Recharts are:
+            Here is your report for today's high-way ramp litter clean-up activity on July 1st 2024!
         </p>
         <ul className="mb-5">
-            <li><strong>Simply</strong> deploy with React components</li>
-            <li><strong>Native</strong> SVG support, lightweight depending only on some D3 submodules</li>
-            <li><strong>Declarative</strong> components, components of charts are purely presentational</li>
+            <li><strong>Liter type</strong> breakdown of what types of litter you picked up.</li>
+            <li><strong>Geo info</strong> GIS based geo location infomation.</li>
+            <li><strong>Your team</strong> volunteer who participanted in the clean-up activity.</li>
         </ul>
 
         { /* START Header 1 */}
@@ -63,7 +61,7 @@ export const ReCharts = () => (
             <Col lg={ 12 }>
                 <HeaderDemo 
                     no={1} 
-                    title="Bar Charts" 
+                    title="Liter type" 
                     subTitle={(
                         <React.Fragment>
                             Quickly build your charts with decoupled, reusable React components.
@@ -225,7 +223,7 @@ export const ReCharts = () => (
             <Col lg={ 12 }>
                 <HeaderDemo 
                     no={2} 
-                    title="Line Charts" 
+                    title="Geo info" 
                     className="mt-5"
                     subTitle={(
                         <React.Fragment>
@@ -340,7 +338,7 @@ export const ReCharts = () => (
             <Col lg={ 12 }>
                 <HeaderDemo 
                     no={3} 
-                    title="Area Charts" 
+                    title="Your team" 
                     className="mt-5"
                     subTitle={(
                         <React.Fragment>

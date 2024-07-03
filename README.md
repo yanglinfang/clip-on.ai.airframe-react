@@ -1,5 +1,5 @@
-> **Note**
->  Clip-on A,,  revolutionize global infrastructure management with AI and improve lives: https://clip-on.ai
+> ## **Clip-On AI**
+>  Revolutionize global infrastructure management with AI and improve lives: https://clip-on.ai
 
 ## Initial Configuration:
 You need to have [NodeJs](https://nodejs.org/en/) (>= 10.0.0) installed on your local machine, before attempting to run a dev environment.

@@ -28,18 +28,19 @@
      inkscape:window-width="2979"
      inkscape:window-height="2044"
      inkscape:window-x="794"
-     inkscape:window-y="346"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg1" />
   <text
      xml:space="preserve"
-     style="font-size:14.6667px;font-family:'HoloLens MDL2 Assets';-inkscape-font-specification:'HoloLens MDL2 Assets';fill:#0fc282;fill-opacity:1"
-     x="30.189873"
-     y="15"
-     id="text1"><tspan
+     style="font-size:19.8571px;font-family:'HoloLens MDL2 Assets';-inkscape-font-specification:'HoloLens MDL2 Assets';fill:#0fc282;fill-opacity:1;stroke-width:1.14561"
+     x="27.803427"
+     y="17.12314"
+     id="text1"
+     transform="scale(0.94338281,1.0600151)"><tspan
        sodipodi:role="line"
        id="tspan1"
-       x="30.189873"
-       y="15"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:#0fc282;fill-opacity:1">Clip-on.AI</tspan></text>
+       x="27.803427"
+       y="17.12314"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.8571px;font-family:Impact;-inkscape-font-specification:Impact;fill:#0fc282;fill-opacity:1;stroke-width:1.14561">Clip-on.AI</tspan></text>
 </svg>

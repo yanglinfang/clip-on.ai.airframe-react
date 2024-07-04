@@ -49,14 +49,14 @@ export const ReCharts = () => (
         />
         <p>
             Here is your report for today's high-way ramp litter clean-up activity on July 1st 2024!
-            See June 2022 WSDOT Stagewide Litter Study Report at link:
+            See June 2022 WSDOT Litter Study Report at link:
             <Button color="link" href="https://apps.ecology.wa.gov/publications/documents/2307038.pdf" target="_blank">
                 <i className="fa fa-external-link"></i>
             </Button> 
         </p>
 
         <ul className="mb-5">
-            <li><strong>Liter type</strong> breakdown of what types of litter you picked up.</li>
+            <li><strong>Litter type</strong> breakdown of what types of litter you picked up.</li>
             <li><strong>Geo info</strong> GIS based geo location infomation.</li>
             <li><strong>Your team</strong> volunteer who participanted in the clean-up activity.</li>
         </ul>
@@ -66,7 +66,7 @@ export const ReCharts = () => (
             <Col lg={12}>
                 <HeaderDemo
                     no={1}
-                    title="Liter type"
+                    title="Litter type"
                     subTitle={(
                         <React.Fragment>
                             Find out more about what types of litter you picked up in this session.

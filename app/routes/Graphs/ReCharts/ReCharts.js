@@ -54,6 +54,14 @@ export const ReCharts = () => (
                 <i className="fa fa-external-link"></i>
             </Button> 
         </p>
+        <p>
+            Learn more about WA Department of Ecology Litter Law:
+            <Button color="link" href="https://ecology.wa.gov/waste-toxics/solid-waste-litter/litter/litter-laws#:~:text=Littering%2C%20illegal%20dumping%2C%20and%20driving,stricter%20than%20the%20state%20law." target="_blank">
+                <i className="fa fa-external-link"></i>
+            </Button> 
+        </p>
+        
+
 
         <ul className="mb-5">
             <li><strong>Litter type</strong> breakdown of what types of litter you picked up.</li>
